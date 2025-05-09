@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(182, 182, 184);
+    
+}
+
+#cabeceraweb{
+    background-color: aqua;
+}
+
+#navegadorprincipal{
+    background-color: brown;
+}
+
+#barralateral{
+    background-color: greenyellow;
+}
+
+#contenidoprincipal{
+    background-color: chocolate;
+}
+
+#footerprincipal{
+    background-color: bisque;
+}
