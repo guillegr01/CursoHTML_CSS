@@ -15,12 +15,23 @@ body {
 
 #barralateral{
     background-color: greenyellow;
+    float: left;/*Rompe el flujo por defecto que tienen los elementos. Aqui coloca la etiqueta aside en la izquierda de la pagina*/
+    height: 1198px;/*La altura que tendra la estructura(hacerlo mas largo o mas corto)*/
+    /*margen entre el borde de la caja de aside con respecto al elemento que tiene a su derecha*/
 }
 
 #contenidoprincipal{
     background-color: chocolate;
+    margin-left: 200px;
+    padding-top: 10px;/*espacio entre el contenido de una estructura y el borde de la estructura en si*/
 }
 
 #footerprincipal{
     background-color: bisque;
+    clear: both; /*clear es para tener en cuenta que el elemento que tengas a izq, derecha o donde sea no sea float para el footer en este caso*/
+    margin-top: 50px;
+}
+
+li, #h2BarraNavegacionPrincipal{
+    display: inline;/*display es para que una etiqueta tipo block la puedas convertir en inline(osea quitarle el salto de linea que tiene por defecto)*/
 }
