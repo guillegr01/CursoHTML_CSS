@@ -17,7 +17,9 @@
 
         #principal {
             width: 500px;
-            background-color: blue;
+            /*background-color: blue;*/
+            background: -webkit-linear-gradient(top, blue, green);/*degradado para chrome(desde donde empieza el degradado, color inicial,color final)*/
+            background: -webkit-radial-gradient(center, circle, blue, green);/*degradado circular*/
             text-align: center;
             margin: 15px auto; /*le estamos diciendo que la barra de navegacion tenga 15px por arriba y abajo y un auto por derecha e izq*/
             padding: 15px;
@@ -28,6 +30,7 @@
 
         #Titulo {
             font: bold 36px Verdana, Geneva, sans-serif;
+            text-shadow: green 3px 3px 10px;/*sombra para un texto*/
         }
 
     </style>
@@ -41,6 +44,7 @@
     <p name="misElementos">Hola</p>
     <p name="misElementos">Adios</p>
     <p name="misElementos">Febrero</p>
+    
 
 </body>
 </html>

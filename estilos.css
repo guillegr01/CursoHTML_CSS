@@ -24,6 +24,8 @@ body {
     background-color: chocolate;
     margin-left: 200px;
     padding-top: 10px;/*espacio entre el contenido de una estructura y el borde de la estructura en si*/
+    margin-bottom: 10px;
+    height: 1198px;
 }
 
 #footerprincipal{
@@ -34,4 +36,9 @@ body {
 
 li, #h2BarraNavegacionPrincipal{
     display: inline;/*display es para que una etiqueta tipo block la puedas convertir en inline(osea quitarle el salto de linea que tiene por defecto)*/
+}
+
+.contenedor {
+    display:flex;
+    gap: 100px;
 }
