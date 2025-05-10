@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos CSS 3</title>
+
+    <style>/*Esta es otra forma para darle estilo con css a la pagina en el mismo archivo html*/
+
+        p[name="misElementos"] { /*pongo una p al principio ya que sera para las etiquetas p*/
+            color: red;
+        }
+
+        p:nth-child(2) {/*Pseudoclase donde solo pone en violeta el segundo parrafo*/
+            color: blueviolet;
+        }
+
+        #principal {
+            width: 500px;
+            background-color: blue;
+            text-align: center;
+            margin: 15px auto; /*le estamos diciendo que la barra de navegacion tenga 15px por arriba y abajo y un auto por derecha e izq*/
+            padding: 15px;
+            border: 3px solid red;/*le damos formato al borde de la caja*/
+            border-radius: 10px;/*Para redondear las esquinas de una caja*/
+            box-shadow: gray 5px 5px 10px;/*Para ponerle sombra a la caja (colorsombra,desplazamiento horizontal, vertical, difuminacion*/
+        }
+
+        #Titulo {
+            font: bold 36px Verdana, Geneva, sans-serif;
+        }
+
+    </style>
+
+</head>
+<body>
+    <header id="principal">
+        <span id="Titulo">Estilos CSS3</span><!--Esta estiqeuta span permite agregarle un estilo a ciertas palabras o letras de una etiqueta p-->
+    </header>
+    
+    <p name="misElementos">Hola</p>
+    <p name="misElementos">Adios</p>
+    <p name="misElementos">Febrero</p>
+
+</body>
+</html>
